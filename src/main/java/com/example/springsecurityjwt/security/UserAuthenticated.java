@@ -1,12 +1,11 @@
-package com.example.springsecurityjwt;
+package com.example.springsecurityjwt.security;
 
 import java.util.Collection;
 import java.util.List;
 
+import com.example.springsecurityjwt.model.User;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
-
-import com.example.springsecurityjwt.model.User;
 
 public class UserAuthenticated implements UserDetails {
     private final User user;
